@@ -1,0 +1,86 @@
+body {
+    background-color: green;
+}
+.btn-purple {
+    background-color: #838abe;
+    color: white;
+  }
+
+  .btn-purple:hover {
+    background-color: #36375b;
+    color: white;
+  }
+.white-background {
+    background-color: white;
+    border-radius: 80px 0px;
+}
+.green-background {
+    border-radius: 30px 0px;
+    padding: 20px;
+}
+.equipe{
+    font-weight: bold;
+}
+.navpage {
+    color: green; /* Default text color */
+}
+.navacceuil{
+    border-radius: 50px 0px;
+}
+
+.navpage:hover {
+    color: white; /* Text color on hover */
+    background-color: green; /* Background color on hover */
+}
+/* styles.css */
+.equipe {
+    padding: 10px; /* Add some padding for better visibility */
+}
+
+.edit{
+    border-radius: 60%;
+    width: 45px; /* Adjust the width and height as needed */
+    height: 45px;
+    padding: 0; /* Remove any padding */
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1050; /* Sit on top */
+    left: 50%; /* Center the modal horizontally */
+    top: 50%; /* Center the modal vertically */
+    transform: translate(-50%, -50%); /* Center the modal both horizontally and vertically */
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    color: black;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#poleText {
+    display: block; /* Ensure the text is initially visible */
+}
+/* Custom CSS to position the toggler button on the left */
+.navbar-toggler {
+    order: -1;
+}

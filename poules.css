@@ -1,0 +1,109 @@
+body {
+    background-color: green;
+}
+.first{
+    background-color: yellow;
+    font-weight: bold;
+    font-size: large;
+    clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%); /* Define the shape */
+
+}
+.second{
+    background-color: silver;
+    font-weight: bold;
+    font-size: large;
+    clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%); /* Define the shape */
+
+}
+.third{
+    background-color: brown;
+    font-weight: bold;
+    font-size: large;
+    clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%); /* Define the shape */
+
+}
+.sans-podium{
+    background-color: white;
+    color: green;
+    font-weight: bold;
+    font-size: large;
+    clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%); /* Define the shape */
+
+}
+.white-background {
+    background-color: white;
+    border-radius: 30px 0px;
+}
+.navpage {
+    color: green; /* Default text color */
+}
+
+.navpage:hover {
+    color: white; /* Text color on hover */
+    background-color: green; /* Background color on hover */
+}
+.grey-background {
+    background-color: rgba(128, 128, 128, 0.5); /* Adjust the alpha value as needed */
+    border-radius: 30px 0px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1050; /* Sit on top */
+    left: 50%; /* Center the modal horizontally */
+    top: 50%; /* Center the modal vertically */
+    transform: translate(-50%, -50%); /* Center the modal both horizontally and vertically */
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    color: black;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.edit{
+    border-radius: 50%;
+    width: 40px; /* Adjust the width and height as needed */
+    height: 40px;
+    padding: 0; /* Remove any padding */
+}
+/* styles.css */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.footer-row {
+    margin-bottom: 10px;
+}
+
+.bg-image {
+    background-size: cover;
+    background-position: center;
+}
+
+.logo-img {
+    max-width: 100%;
+    height: auto;
+}

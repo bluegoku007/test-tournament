@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Universal Football Tournament</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFOnpD lijXkOYC+uIhHL+VU8NxWZZqrHztlfzOLGID0MhdIgcszGJwHDW/X" crossorigin="anonymous"></script>
+<!-- Latest compiled and minified JavaScript -->
+<link rel="stylesheet" href="poules.css">
+<style>
+</style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <div class="row w-100">
+                <div class="col-md-3">
+                    <div class="d-flex align-items-center">
+                        <button id="navbarToggler" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>                        
+                        <a class="navbar-brand text-success ml-2" href="#">Football</a>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active dropdown">
+                                <a class="nav-link dropdown-toggle text-success" style="text-decoration: underline;" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    UTF space    
+                                </a>                      
+                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Dropdown Item 1</a>
+                                    <a class="dropdown-item" href="#">Dropdown Item 2</a>
+                                    <a class="dropdown-item" href="#">Dropdown Item 3</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">a propos de nous</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Prestation</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">FAQ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>    
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class="row align-items-center">
+                        <div class="col">
+                            <div class="fw-bold">Carlos Ancelotti</div>
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    coach    
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <img src="ancelotti.jpg" class="img-fluid rounded-circle" alt="Carlos Ancelotti Photo" style="width: 60px; height: 60px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    
+    <div class="position-relative bg-image" style="background-image: url('supercup.webp'); height: 100vh;">
+        <div class="position-absolute w-100" style="bottom: 0%; transform: translateY(50%);">
+    
+            <div class="container mt-3">
+                <div class="row">
+                    <div class="col-lg-1"></div> <!-- Left gutter -->
+                    <div class="col-lg-10">
+                        <!-- Your existing content here -->
+                        <div class="row">
+                            <div class="col-12">
+                                <!-- Top part -->
+                                <div class="row white-background">
+                                    <div class="col-lg-2 col-sm-4">
+                                        <img src="superlogo.png" class="img-fluid h-100 logo-img"> <!-- Set height to 100% -->
+                                    </div>
+                                    <div class="col-lg-7">
+                                        <!-- Second Part (7/12) -->
+                                        <div class="row">
+                                            <div class="col">30 september 2024 9:50</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col text-success fw-bold"><h1>SUPERCUP 2k24</h1></div>
+                                        </div>
+                                        <div class="row">
+                                            <!-- Row 3 divided into five columns -->
+                                            <div class="col-md-2 col-6 mb-3 mb-md-0">
+                                                <div class="row">
+                                                    <div class="col">Format</div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col">11vs11</div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2 col-6 mb-3 mb-md-0">
+                                                <div class="row">
+                                                    <div class="col">Categorie</div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col">U17</div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2 col-6 mb-3 mb-md-0">
+                                                <div class="row">
+                                                    <div class="col">Prix</div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col">20,00$</div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2 col-6 mb-3 mb-md-0">
+                                                <div class="row">
+                                                    <div class="col">Condition de jeu</div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col">interieur</div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2 col-6">
+                                                <div class="row">
+                                                    <div class="col">Genre</div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col">Masculin</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2">
+                                        <!-- Third Part (3/12) -->
+                                        <div class="row">
+                                            <div class="col text-center">Adresse</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col fw-bold">Santiago bernabeu</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-1"></div> <!-- Right gutter -->
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="row w-100 mt-5"></div>
+        <div class="row w-100 mt-3"></div>
+    <div class="container-fluid mt-5 mb-3"> <!-- Add margin-top to create space between the image and the navigation -->
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light rounded-3">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold navpage" href="#">Information Tournoi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold navpage" href="tournament.html">Acceuil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold navpage" href="#">Equipes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold navpage" href="poules.html">Poles</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold navpage" href="#">Final(s)</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold navpage" href="#">Match</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold navpage" href="#">Messagerie</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    
+
+           <div class="row w-100 mt-4">
+            <div class="col-md-1"></div>
+            <div class="col-md-10 ">
+                <div class="row">
+                    <div class="col-md-6 bg-success text-white">
+                        <div class="row justify-content-center mt-4">
+                            <div class="col-md-5 ml-3">
+                                <div class="row text-center mt-1">
+                                    <div class="col-md-8">
+                                        <h2>Pole A</h2>
+                                    </div>
+                                    <div class="col-md-1">
+                                        <button class="btn btn-light edit" id="myBtn">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil" viewBox="0 0 16 16">
+                                                <path d="M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168zM11.207 2.5 13.5 4.793 14.793 3.5 12.5 1.207zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293zm-9.761 5.175-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325"/>
+                                              </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="row first text-center mt-1">
+                                    <p>equipe1</p>
+                                    <!-- First column - First row -->
+                                </div>
+                                <div class="row second text-center mt-1">
+                                    <p>equipe2</p>
+                                    <!-- First column - Second row -->
+                                </div>
+                                <div class="row third text-center mt-1">
+                                    <p>equipe3</p>
+                                    <!-- First column - Third row -->
+                                </div>
+                                <div class="row sans-podium text-center mt-1">
+                                    <p>equipe4</p>
+                                    <!-- First column - Fourth row -->
+                                </div>
+                                <div class="row sans-podium text-center mt-1">
+                                    <p>equipe5</p>
+                                    <!-- First column - Fifth row -->
+                                </div>
+                            </div>
+                            <div class="col-md-1"></div> <!-- Column separator -->
+                            <div class="col-md-5">
+                                <div class="row text-center mt-1">
+                                    <div class="col-md-8">
+                                        <h2>Pole B</h2>
+                                    </div>
+                                    <div class="col-md-1">
+                                        <button class="btn btn-light edit" id="btn2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil" viewBox="0 0 16 16">
+                                                <path d="M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168zM11.207 2.5 13.5 4.793 14.793 3.5 12.5 1.207zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293zm-9.761 5.175-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325"/>
+                                              </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="row first text-center mt-1">
+                                    <p>equipe1</p>
+                                    <!-- First column - First row -->
+                                </div>
+                                <div class="row second text-center mt-1">
+                                    <p>equipe2</p>
+                                    <!-- First column - Second row -->
+                                </div>
+                                <div class="row third text-center mt-1">
+                                    <p>equipe3</p>
+                                    <!-- First column - Third row -->
+                                </div>
+                                <div class="row sans-podium text-center mt-1">
+                                    <p>equipe4</p>
+                                    <!-- First column - Fourth row -->
+                                </div>
+                                <div class="row sans-podium text-center mt-1">
+                                    <p>equipe5</p>
+                                    <!-- First column - Fifth row -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center mt-4">
+                            <div class="col-md-5 ml-3">
+                                <div class="row text-center mt-1">
+                                    <div class="col-md-8">
+                                        <h2>Pole C</h2>
+                                    </div>
+                                    <div class="col-md-1">
+                                        <button class="btn btn-light edit" id="btn3">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil" viewBox="0 0 16 16">
+                                                <path d="M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168zM11.207 2.5 13.5 4.793 14.793 3.5 12.5 1.207zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293zm-9.761 5.175-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325"/>
+                                              </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="row first text-center mt-1">
+                                    <p>equipe1</p>
+                                    <!-- First column - First row -->
+                                </div>
+                                <div class="row second text-center mt-1">
+                                    <p>equipe2</p>
+                                    <!-- First column - Second row -->
+                                </div>
+                                <div class="row third text-center mt-1">
+                                    <p>equipe3</p>
+                                    <!-- First column - Third row -->
+                                </div>
+                                <div class="row sans-podium text-center mt-1">
+                                    <p>equipe4</p>
+                                    <!-- First column - Fourth row -->
+                                </div>
+                                <div class="row sans-podium text-center mt-1">
+                                    <p>equipe5</p>
+                                    <!-- First column - Fifth row -->
+                                </div>
+                            </div>
+                            <div class="col-md-1"></div> <!-- Column separator -->
+                            <div class="col-md-5">
+                                <div class="row text-center mt-1">
+                                    <div class="col-md-8">
+                                        <h2>Pole D</h2>
+                                    </div>
+                                    <div class="col-md-1">
+                                        <button class="btn btn-light edit" id="btn4">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil" viewBox="0 0 16 16">
+                                                <path d="M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168zM11.207 2.5 13.5 4.793 14.793 3.5 12.5 1.207zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293zm-9.761 5.175-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325"/>
+                                              </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="row justify-content-center mt-1">
+                                    <!-- The Modal -->
+                                    <div id="myModal" class="modal">
+                                    
+                                      <!-- Modal content -->
+                                      <div class="modal-content">
+                                        <span class="close">&times;</span>
+                                        <form>
+                                            <div class="form-group">
+                                              <label for="equipe1">Equipe1</label>
+                                              <input type="text" class="form-control" id="equipe1" aria-describedby="emailHelp" placeholder="Equipe1">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="equipe2">Equipe2</label>
+                                                <input type="text" class="form-control" id="equipe2" aria-describedby="emailHelp" placeholder="Equipe2">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="equipe3">Equipe3</label>
+                                                <input type="text" class="form-control" id="equipe3" aria-describedby="emailHelp" placeholder="Equipe3">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="equipe4">Equipe4</label>
+                                                <input type="text" class="form-control" id="equipe4" aria-describedby="emailHelp" placeholder="Equipe4">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="equipe5">Equipe5</label>
+                                                <input type="text" class="form-control" id="equipe5" aria-describedby="emailHelp" placeholder="Equipe5">
+                                            </div>
+                                            <button type="submit" class="btn btn-primary">Submit</button>
+                                          </form>
+                                      </div>
+                                    
+                                    </div>
+                                </div>
+
+
+                                <div class="row first text-center mt-1">
+                                    <p>equipe1</p>
+                                    <!-- First column - First row -->
+                                </div>
+                                <div class="row second text-center mt-1">
+                                    <p>equipe2</p>
+                                    <!-- First column - Second row -->
+                                </div>
+                                <div class="row third text-center mt-1">
+                                    <p>equipe3</p>
+                                    <!-- First column - Third row -->
+                                </div>
+                                <div class="row sans-podium text-center mt-1">
+                                    <p>equipe4</p>
+                                    <!-- First column - Fourth row -->
+                                </div>
+                                <div class="row sans-podium text-center mt-1">
+                                    <p>equipe5</p>
+                                    <!-- First column - Fifth row -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-light text-center fw-bold  grey-background">
+                    sponsors
+                    <div class="row justify-content-center mt-4">
+                        <div class="col-md-12">
+                            <div class="row text-center mt-1">
+                                <!-- First column - First row -->
+                            </div>
+                            <div class="row mt-1">
+                                <p>nombre de poules</p>
+                                <div class="btn-group mt-3" role="group" aria-label="Basic radio toggle button group">
+                                    <input type="radio" class="btn-check" name="btn-color-2" id="btn-yellow" autocomplete="off">
+                                    <label class="btn btn-outline-secondary text-light" for="btn-yellow">1</label>
+                                    
+                                    <input type="radio" class="btn-check" name="btn-color-2" id="btn-orange" autocomplete="off">
+                                    <label class="btn btn-outline-secondary text-light" for="btn-orange">2</label>
+                                    
+                                    <input type="radio" class="btn-check" name="btn-color-2" id="btn-purple" autocomplete="off">
+                                    <label class="btn btn-outline-secondary text-light" for="btn-purple">3</label>
+
+                                    <input type="radio" class="btn-check" name="btn-color-2" id="btn-4" autocomplete="off">
+                                    <label class="btn btn-outline-secondary text-light" for="btn-4">4</label>
+                                    
+                                    <input type="radio" class="btn-check personalisepoules" name="btn-color-2" id="btn-5" autocomplete="off">
+                                    <label class="btn btn-outline-secondary text-light" for="btn-5">personalisee</label>
+                                
+                                </div>
+                            
+                                <p class="mt-3">criteres en cas d'égalité</p>
+                                <div class="btn-group mt-1" role="group" aria-label="Basic radio toggle button group">
+                                    <input type="checkbox" class="btn-check" name="btn-color-5" id="btn-row3-1-1" autocomplete="off" disabled> <!-- Added disabled attribute -->
+                                    <label class="btn btn-outline-secondary text-light" for="btn-row3-1-1">En cas de critères d'égalité</label> <!-- Changed label text -->
+                                </div>
+                                
+                                  <div class="btn-group mt-1" role="group" aria-label="Basic radio toggle button group">
+                                    <input type="radio" class="btn-check" name="btn-color-3" id="btn-row3-1" autocomplete="off">
+                                    <label class="btn btn-outline-secondary text-light" for="btn-row3-1">PTS</label>
+                                    
+                                    <input type="radio" class="btn-check" name="btn-color-3" id="btn-row3-2" autocomplete="off">
+                                    <label class="btn btn-outline-secondary text-light" for="btn-row3-2">CD</label>
+                                    
+                                    <input type="radio" class="btn-check" name="btn-color-3" id="btn-row3-3" autocomplete="off">
+                                    <label class="btn btn-outline-secondary text-light" for="btn-row3-3">GA</label>
+
+                                    <input type="radio" class="btn-check" name="btn-color-3" id="btn-row3-4" autocomplete="off">
+                                    <label class="btn btn-outline-secondary text-light" for="btn-row3-4">MA</label>
+                                    
+                                    <input type="radio" class="btn-check" name="btn-color-3" id="btn-row3-5" autocomplete="off">
+                                    <label class="btn btn-outline-secondary text-light" for="btn-row3-5">MD</label>
+
+                                    <input type="radio" class="btn-check" name="btn-color-3" id="btn-row3-6" autocomplete="off">
+                                    <label class="btn btn-outline-secondary text-light" for="btn-row3-6">NMG</label>
+                                  </div>
+
+
+
+                                  <p class="mt-3">point de victoire</p>
+                                  <div class="btn-group mt-1" role="group" aria-label="Basic radio toggle button group">
+                                    <input type="radio" class="btn-check" name="btn-color-4" id="btn-row4-1" autocomplete="off">
+                                    <label class="btn btn-outline-secondary text-light" for="btn-row4-1">3</label>
+                                    
+                                    <input type="radio" class="btn-check" name="btn-color-4" id="btn-row4-2" autocomplete="off">
+                                    <label class="btn btn-outline-secondary text-light" for="btn-row4-2">4</label>
+                                    
+                                    <input type="radio" class="btn-check personalise" name="btn-color-4" id="btn-row4-3" autocomplete="off">
+                                    <label class="btn btn-outline-secondary text-light" for="btn-row4-3">personalisee</label>
+
+                                  
+
+
+                                   
+                            </div>
+                            <p class="mt-3">En cas de forfait</p>
+                            <div class="btn-group mt-1" role="group" aria-label="Basic radio toggle button group">
+                              <input type="checkbox" class="btn-check" name="btn-color-5" id="btn-row5-1" autocomplete="off">
+                              <label class="btn btn-outline-secondary text-light" for="btn-row5-1">En cas de forfait</label>
+                              
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                    
+                                 <!-- Modal en cas de cliquer personaliser -->
+                                 <div id="modalperso" class="modal">
+                                    
+                                    <!-- Modal content -->
+                                    <div class="modal-content">
+                                      <span class="close close2">&times;</span>
+                                      <form>
+                                          <div class="form-group">
+                                            <label for="points">enter a specific number</label>
+                                            <input type="text" class="form-control" id="points" aria-describedby="emailHelp" placeholder="points">
+                                          </div>
+                                          <button type="submit" class="btn btn-primary">Submit</button>
+                                        </form>
+                                    </div>
+                                  
+                                  </div>
+                              </div>
+                     
+                              
+                                 <!-- Modal en cas de cliquer personaliser -->
+                                 <div id="modalpersopoules" class="modal">
+                                    
+                                    <!-- Modal content -->
+                                    <div class="modal-content">
+                                      <span class="close close3">&times;</span>
+                                      <form>
+                                          <div class="form-group">
+                                            <label for="points">enter a specific number</label>
+                                            <input type="text" class="form-control" id="poules" aria-describedby="emailHelp" placeholder="poules">
+                                          </div>
+                                          <button type="submit" class="btn btn-primary">Submit</button>
+                                        </form>
+                                    </div>
+                                  
+                                  </div>
+                              </div>
+
+
+            </div>
+            
+            </div>
+    
+                </div>
+                </div>
+                <!-- poles + phase poule -->
+        <div class="row w-100 mt-4">
+            <div class="col-md-1"></div>
+            <div class="col-md-10 ">
+                <div class="row">
+                    <div class="col-md-6 bg-success text-white">
+                        <div class="row justify-content-center mt-4">
+                            <div class="col-md-5 ml-3">
+                                <div class="row text-center mt-1">
+                                    <h2>Pole A</h2>
+                                    <!-- First column - First row -->
+                                </div>
+                                <div class="row first text-center mt-1">
+                                    <p>equipe1</p>
+                                    <!-- First column - First row -->
+                                </div>
+                                <div class="row second text-center mt-1">
+                                    <p>equipe2</p>
+                                    <!-- First column - Second row -->
+                                </div>
+                                <div class="row third text-center mt-1">
+                                    <p>equipe3</p>
+                                    <!-- First column - Third row -->
+                                </div>
+                                <div class="row sans-podium text-center mt-1">
+                                    <p>equipe4</p>
+                                    <!-- First column - Fourth row -->
+                                </div>
+                                <div class="row sans-podium text-center mt-1">
+                                    <p>equipe5</p>
+                                    <!-- First column - Fifth row -->
+                                </div>
+                            </div>
+                            <div class="col-md-1"></div> <!-- Column separator -->
+                            <div class="col-md-5">
+                                <div class="row text-center mt-1">
+                                    <h2>Pole B</h2>
+                                    <!-- First column - First row -->
+                                </div>
+                                <div class="row first text-center mt-1">
+                                    <p>equipe1</p>
+                                    <!-- First column - First row -->
+                                </div>
+                                <div class="row second text-center mt-1">
+                                    <p>equipe2</p>
+                                    <!-- First column - Second row -->
+                                </div>
+                                <div class="row third text-center mt-1">
+                                    <p>equipe3</p>
+                                    <!-- First column - Third row -->
+                                </div>
+                                <div class="row sans-podium text-center mt-1">
+                                    <p>equipe4</p>
+                                    <!-- First column - Fourth row -->
+                                </div>
+                                <div class="row sans-podium text-center mt-1">
+                                    <p>equipe5</p>
+                                    <!-- First column - Fifth row -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center mt-4">
+                            <div class="col-md-5 ml-3">
+                                <div class="row text-center mt-1">
+                                    <h2>Pole C</h2>
+                                    <!-- First column - First row -->
+                                </div>
+                                <div class="row first text-center mt-1">
+                                    <p>equipe1</p>
+                                    <!-- First column - First row -->
+                                </div>
+                                <div class="row second text-center mt-1">
+                                    <p>equipe2</p>
+                                    <!-- First column - Second row -->
+                                </div>
+                                <div class="row third text-center mt-1">
+                                    <p>equipe3</p>
+                                    <!-- First column - Third row -->
+                                </div>
+                                <div class="row sans-podium text-center mt-1">
+                                    <p>equipe4</p>
+                                    <!-- First column - Fourth row -->
+                                </div>
+                                <div class="row sans-podium text-center mt-1">
+                                    <p>equipe5</p>
+                                    <!-- First column - Fifth row -->
+                                </div>
+                            </div>
+                            <div class="col-md-1"></div> <!-- Column separator -->
+                            <div class="col-md-5">
+                                <div class="row text-center mt-1">
+                                    <h2>Pole D</h2>
+                                    <!-- First column - First row -->
+                                </div>
+                                <div class="row first text-center mt-1">
+                                    <p>equipe1</p>
+                                    <!-- First column - First row -->
+                                </div>
+                                <div class="row second text-center mt-1">
+                                    <p>equipe2</p>
+                                    <!-- First column - Second row -->
+                                </div>
+                                <div class="row third text-center mt-1">
+                                    <p>equipe3</p>
+                                    <!-- First column - Third row -->
+                                </div>
+                                <div class="row sans-podium text-center mt-1">
+                                    <p>equipe4</p>
+                                    <!-- First column - Fourth row -->
+                                </div>
+                                <div class="row sans-podium text-center mt-1">
+                                    <p>equipe5</p>
+                                    <!-- First column - Fifth row -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-light text-center fw-bold  grey-background">
+                    sponsors
+                    </div>
+                </div>
+                
+
+            </div>
+            </div>
+                <footer class="bg-black py-4 mt-5">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <!-- First part of the footer -->
+                                <h5 class="text-light">Section 1</h5>
+                                <p class="text-light">Content for the first section of the footer.</p>
+                            </div>
+                            <div class="col-md-4">
+                                <!-- Second part of the footer -->
+                                <h5 class="text-light">Section 2</h5>
+                                <p class="text-light">Content for the second section of the footer.</p>
+                            </div>
+                            <div class="col-md-4">
+                                <!-- Third part of the footer -->
+                                <h5 class="text-light">Section 3</h5>
+                                <p class="text-light">Content for the third section of the footer.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </footer>
+                
+                <script src="script.js"></script>
+    </body>
+    </html>
